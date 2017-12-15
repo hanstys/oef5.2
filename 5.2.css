@@ -1,0 +1,28 @@
+body{
+  padding: 1.5%;
+  background-color: white;
+}
+main{
+ display: grid;
+border: 2px solid grey;
+}
+
+div{
+background-color: #F1FFD2;
+border: 10px solid white;
+padding: 5%;
+}
+h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+p{
+  font-size: 15px
+
+}
+
+@media (min-width: 1000px){
+main{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
